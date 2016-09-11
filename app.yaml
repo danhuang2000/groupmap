@@ -1,0 +1,14 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /register
+  script: register.app
+
+- url: /update
+  script: update.app
+
+- url: /status
+  script: main.app
+
